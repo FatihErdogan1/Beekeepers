@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Beekeepersv" parent="Theme.Material3.Dark">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#433E3E</item> <!-- Varsayılan buton arka plan rengi -->
+        <item name="colorPrimaryVariant">#211F1F</item>
+        <item name="colorOnPrimary">@android:color/white</item> <!-- Buton üzerindeki yazı rengi -->
+        <item name="android:textColor">@android:color/black</item>
+     name="CustomEditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">#827C7C</item> <!-- Hint rengi burada belirlenir -->
+
+
+
+
+
+
+    </style>
+
+    <style name="Theme.Beekeepersv" parent="Base.Theme.Beekeepersv" />
+</resources>
